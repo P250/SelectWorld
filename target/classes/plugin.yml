@@ -1,0 +1,15 @@
+name: SelectWorld
+version: '1.0-SNAPSHOT'
+main: me.johnny.selectworld.SelectWorld
+api-version: '1.20'
+
+commands:
+  creative:
+    usage: "/creative - Teleports you to the creative server!"
+    aliases: ["creativeserver, create"]
+  survival:
+    usage: "/survival - Teleports you to the survival server!"
+    aliases: ["survivalserver, surv"]
+  lobby:
+    usage: "/lobby - Teleports you back to the lobby!"
+    aliases: ["hub", "leave"]
